@@ -23,7 +23,7 @@ const App = () => {
     try {
         if(searchInput.current.value !== ''){
           const result1 = await axios
-          .get(`http://api.openweathermap.org/data/2.5/weather?q=${searchInput.current.value}&units=metric&appid=aa6a27980fc75bef322db2bae83f71f0`)
+          .get(`https://api.openweathermap.org/data/2.5/weather?q=${searchInput.current.value}&units=metric&appid=aa6a27980fc75bef322db2bae83f71f0`)
           .then(response => {
           return response
           });
