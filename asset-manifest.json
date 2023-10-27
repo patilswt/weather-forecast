@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/weather-forecast/static/css/main.6b8d5cc3.css",
+    "main.js": "/weather-forecast/static/js/main.4d1213bf.js",
+    "static/js/787.2a38e5c6.chunk.js": "/weather-forecast/static/js/787.2a38e5c6.chunk.js",
+    "static/media/ubuntu-latin-ext-400-italic.woff2": "/weather-forecast/static/media/ubuntu-latin-ext-400-italic.a7fb76c749a9dd181bbf.woff2",
+    "static/media/ubuntu-latin-ext-400-normal.woff2": "/weather-forecast/static/media/ubuntu-latin-ext-400-normal.9967dbf10fc3cb92edfb.woff2",
+    "static/media/ubuntu-latin-400-italic.woff2": "/weather-forecast/static/media/ubuntu-latin-400-italic.e64518f240c111c679bc.woff2",
+    "static/media/ubuntu-latin-400-normal.woff2": "/weather-forecast/static/media/ubuntu-latin-400-normal.2f02effe392a63dc07a5.woff2",
+    "static/media/ubuntu-cyrillic-ext-400-italic.woff2": "/weather-forecast/static/media/ubuntu-cyrillic-ext-400-italic.df2ffa505c991c1f0de1.woff2",
+    "static/media/ubuntu-cyrillic-ext-400-normal.woff2": "/weather-forecast/static/media/ubuntu-cyrillic-ext-400-normal.80c010be16bde8b7e613.woff2",
+    "static/media/ubuntu-cyrillic-400-italic.woff2": "/weather-forecast/static/media/ubuntu-cyrillic-400-italic.c53665738d3a9e65f311.woff2",
+    "static/media/ubuntu-latin-ext-400-italic.woff": "/weather-forecast/static/media/ubuntu-latin-ext-400-italic.77ec016093fb5d6e3497.woff",
+    "static/media/ubuntu-latin-ext-400-normal.woff": "/weather-forecast/static/media/ubuntu-latin-ext-400-normal.da2e1b790a2d4c962274.woff",
+    "static/media/ubuntu-cyrillic-400-normal.woff2": "/weather-forecast/static/media/ubuntu-cyrillic-400-normal.5baf1f37de97e50ab654.woff2",
+    "static/media/ubuntu-latin-400-italic.woff": "/weather-forecast/static/media/ubuntu-latin-400-italic.57ae5c63a42ac39369af.woff",
+    "static/media/ubuntu-latin-400-normal.woff": "/weather-forecast/static/media/ubuntu-latin-400-normal.933b7e9d7979ff75be23.woff",
+    "static/media/ubuntu-greek-400-italic.woff2": "/weather-forecast/static/media/ubuntu-greek-400-italic.fa0dc4c72846cecb6aba.woff2",
+    "static/media/ubuntu-greek-400-normal.woff2": "/weather-forecast/static/media/ubuntu-greek-400-normal.038ee74fde7a2c872ee2.woff2",
+    "static/media/ubuntu-greek-ext-400-italic.woff2": "/weather-forecast/static/media/ubuntu-greek-ext-400-italic.8608a9d328539c1e770d.woff2",
+    "static/media/ubuntu-greek-ext-400-normal.woff2": "/weather-forecast/static/media/ubuntu-greek-ext-400-normal.7f5049065c02fb5e0628.woff2",
+    "static/media/ubuntu-cyrillic-ext-400-italic.woff": "/weather-forecast/static/media/ubuntu-cyrillic-ext-400-italic.b9b9494c3169f93099d5.woff",
+    "static/media/ubuntu-cyrillic-400-italic.woff": "/weather-forecast/static/media/ubuntu-cyrillic-400-italic.2ec7fb264e67b7144942.woff",
+    "static/media/ubuntu-cyrillic-ext-400-normal.woff": "/weather-forecast/static/media/ubuntu-cyrillic-ext-400-normal.fe8ca02775a36a7640cb.woff",
+    "static/media/ubuntu-cyrillic-400-normal.woff": "/weather-forecast/static/media/ubuntu-cyrillic-400-normal.1579f2e8bda59d1bb53e.woff",
+    "static/media/ubuntu-greek-400-italic.woff": "/weather-forecast/static/media/ubuntu-greek-400-italic.72c2ac8ef3f2acab67a0.woff",
+    "static/media/ubuntu-greek-ext-400-italic.woff": "/weather-forecast/static/media/ubuntu-greek-ext-400-italic.472e6d7b25d8edd752c6.woff",
+    "static/media/ubuntu-greek-400-normal.woff": "/weather-forecast/static/media/ubuntu-greek-400-normal.bf1c79df1b0e27105c90.woff",
+    "static/media/ubuntu-greek-ext-400-normal.woff": "/weather-forecast/static/media/ubuntu-greek-ext-400-normal.ae079d7503d209554bf8.woff",
+    "index.html": "/weather-forecast/index.html",
+    "main.6b8d5cc3.css.map": "/weather-forecast/static/css/main.6b8d5cc3.css.map",
+    "main.4d1213bf.js.map": "/weather-forecast/static/js/main.4d1213bf.js.map",
+    "787.2a38e5c6.chunk.js.map": "/weather-forecast/static/js/787.2a38e5c6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b8d5cc3.css",
+    "static/js/main.4d1213bf.js"
+  ]
+}
