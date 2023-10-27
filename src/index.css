@@ -1,0 +1,102 @@
+:root {
+  font-family: "Ubuntu";
+}
+* {
+  box-sizing: border-box;
+  margin : 0;
+  padding :0;
+}
+
+body {
+  font-family: "Ubuntu";
+}
+
+.container {
+  max-width: 100%;
+  
+}
+
+.inputCol{
+  background-color: #f1f1f1;
+ 
+ 
+}
+
+.search-section {
+
+  padding: 50px;
+  text-align: center;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+ 
+}
+
+.search-section .search-input {
+  min-width: 500px;
+}
+
+.hidden { display:none; }
+
+.column {
+  float: left;
+  width: 12.50%;
+  padding: 10px;
+  height: 180px; 
+}
+
+.tempcol{
+  background-color:#b3b3ff;border-color:white;border-width:5px;border-style:double;
+
+}
+
+.componentCenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.highlight{
+  color: #ffffff;
+ 
+}
+
+.fontH{
+  margin-top:2px;
+  margin-bottom:2px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+.current {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  padding-top: 40px;
+  text-align: center;
+  height: 250px; 
+}
+
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+  .current {
+    width: 100%;
+  }
+  input[type=text], select {
+  width:100%;
+  }
+}
