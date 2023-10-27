@@ -27,15 +27,19 @@ const App = () => {
           .then(response => {
           return response
           });
-          setRes(true);
-          setCityName(result1.data.name);
-          setMain(result1.data.main);
-          setWindSpeed(result1.data.wind.speed);
-          setWeather(result1.data.weather[0].main);
-          const result2 = await axios.get(`https://api.openweathermap.org/data/2.5/onecall?lat=${result1.data.coord.lat}&lon=${result1.data.coord.lon}&units=metric&exclude=current,minutely,hourly,alerts&appid=aa6a27980fc75bef322db2bae83f71f0`)
-        
-          setCloud(result2.data.daily);
+          if(result1.data.cod !== "200"){
+            setRes(false);
+            setCloud([]);
+          }else{
+            setRes(true);
+            setCityName(result1.data.name);
+            setMain(result1.data.main);
+            setWindSpeed(result1.data.wind.speed);
+            setWeather(result1.data.weather[0].main);
+            const result2 = await axios.get(`https://api.openweathermap.org/data/2.5/onecall?lat=${result1.data.coord.lat}&lon=${result1.data.coord.lon}&units=metric&exclude=current,minutely,hourly,alerts&appid=aa6a27980fc75bef322db2bae83f71f0`)
           
+            setCloud(result2.data.daily);
+          }
         }else{
           setRes(false);
           setCloud([]);
