@@ -42,7 +42,7 @@ const App = () => {
         }
         
     } catch (error) {
-      console.log(error);
+     // console.log(error);
     }
 
  
@@ -97,12 +97,12 @@ const App = () => {
       
 
       {resCloud.map((val) => {
-       
+       var day = new Date(val.dt*1000);
         return (
           <>
           <div className="column tempcol" key={val.id} style={{marginTop:"15px"}}>
-            <h6 className="componentCenter" style={{fontWeight: "bold"}}>{val.dt}</h6>
-            <h6 className="componentCenter">{val.dt}</h6>
+            <h6 className="componentCenter" style={{fontWeight: "bold"}}>{day.toLocaleDateString('en-us', {weekday:'long'})}</h6>
+            <h6 className="componentCenter">{day.toLocaleDateString('en-us', {day: 'numeric', month: 'short'})}</h6>
             <div className="componentCenter">
               <FontAwesomeIcon icon={faCloudSunRain} size="4x" className="highlight"/>
             </div>

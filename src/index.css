@@ -99,4 +99,11 @@ body {
   input[type=text], select {
   width:100%;
   }
+
+  .search-section .search-input {
+    width:100%;
+    min-width: unset;
+    margin:0;
+  }
 }
+
