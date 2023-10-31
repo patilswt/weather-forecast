@@ -72,7 +72,7 @@ const App = () => {
       <div className={res? "row" : "row hidden"} >
       <div className="current" key='1' style={{backgroundColor:"#000033",color:"#ffffff",fontWeight: "bold"}}>
 
-      <h2>{new Date().toLocaleDateString('en-us', {weekday:'long'}) } {new Date().toLocaleTimeString() }</h2>
+      <h2>{new Date().toLocaleDateString('en-us', {weekday:'long'}) }</h2>
 
       <h2>{new Date().toLocaleDateString('en-us', {day: 'numeric', month: 'long', year: 'numeric'}) }
       </h2>
